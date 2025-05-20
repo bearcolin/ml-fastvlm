@@ -139,3 +139,22 @@ dmypy.json
 
 # FastVLM models
 app/FastVLM/model
+
+# macOS
+**/.DS_Store
+
+# PyCharm project settings
+.idea/
+
+# Xcode
+*.xcworkspace
+
+# FastVLM 模型相关文件（新增）
+checkpoints/
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+*.pth
+*.onnx
+~/.cache/huggingface/
